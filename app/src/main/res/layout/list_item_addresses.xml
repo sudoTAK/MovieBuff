@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/appWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        >
+
+        <com.tahir.moviebuff.views.CustomTextView
+            android:id="@+id/tv_address_lebel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address 1"
+            custom:font_type="@string/helveticamedmd_fontfamily"
+            android:textColor="@color/appBlack"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+
+        <com.tahir.moviebuff.views.CustomTextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:font_type="@string/american_typewriter_fontfamily"
+            android:text="bakfjbdakjbfdkajbfkbkbfak5694265"
+            android:textColor="@color/appTextColor"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/viewLineColor"/>
+
+
+
+
+</LinearLayout>

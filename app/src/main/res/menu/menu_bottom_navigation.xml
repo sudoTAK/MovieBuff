@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/actionTabNowPlaying"
+        android:icon="@drawable/ic_tab_now_playing"
+        android:title="@string/tab_now_playing"/>
+    <item
+        android:id="@+id/actionTabUpcoming"
+        android:icon="@drawable/ic_tab_upcoming"
+        android:title="@string/tab_upcoming"/>
+    <item
+        android:id="@+id/actionTabPopular"
+        android:icon="@drawable/ic_tab_popular"
+        android:title="@string/tab_popular"/>
+    <item
+        android:id="@+id/actionTabTopRated"
+        android:icon="@drawable/ic_tab_top_rated"
+        android:title="@string/tab_top_rated"/>
+</menu>

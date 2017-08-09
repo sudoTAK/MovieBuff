@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="attrs_fonts">
+        <attr name="font_type" format="string" />
+    </declare-styleable>
+
+</resources>

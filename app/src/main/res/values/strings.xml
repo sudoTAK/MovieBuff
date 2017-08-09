@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movie Buff</string>
+    <string name="action_settings">Settings</string>
+
+    <!--//mainActivity-->
+    <string name="tab_now_playing">Now Playing</string>
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_popular">Popular</string>
+    <string name="tab_top_rated">Top Rated</string>
+
+    <!--//font name-->
+    <string name="helveticamedmd_fontfamily">HelveticaMedCd.ttf</string>
+    <string name="american_typewriter_fontfamily">AmericanTypewriterRegular.ttf</string>
+    <string name="title_activity_movie_detail">Movie Detail</string>
+
+
+</resources>

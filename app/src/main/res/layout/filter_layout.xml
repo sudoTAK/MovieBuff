@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/datetxt"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Filter Movies By Year Range" />
+
+
+    <TextView
+        android:id="@+id/movie_title"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datetxt"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:text="Select Min Range" />
+
+    <Spinner
+        android:id="@+id/minYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movie_title" />
+
+    <TextView
+        android:id="@+id/maxView"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minYear"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:text="Select Max Range" />
+
+    <Spinner
+        android:id="@+id/maxYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maxView" />
+
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maxYear"
+        android:text="Apply Filter" />
+
+    <TextView
+        android:id="@+id/errorView"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filterButton"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Min year should not be greater than max year"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
